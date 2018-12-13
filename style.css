@@ -1,9 +1,20 @@
-h1{
+body{
+  background: red !important;
+}
+  h1{
     text-align: center;
+    background: #94f7ca;
+}
+article{
+  font-weight: bold;
+  background: #94f7ca;
 }
 html {
     font-size: 1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .about-me{
+    background: yellow;
   }
   
   @include media-breakpoint-up(sm) {
@@ -23,9 +34,7 @@ html {
       font-size: 1.6rem;
     }
   }
-.row {
-    background:#94f7ca;
-}
+  
 /*porfolio*/
 .container{
     background:#94f7ca;
