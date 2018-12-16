@@ -12,11 +12,13 @@ html {
     font-size: 1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
-  .footer{
+  
+
+    .footer{
     overflow: auto;
     margin-top:30px;
-    fixed:bottom;
-  }
+    fixed:bottom; 
+  } 
 /*porfolio*/
 .container{
     background:#cac7cc;
@@ -28,6 +30,9 @@ html {
   @include media-breakpoint-up(sm) {
     html {
       font-size: 1.2rem;
+    }
+    .card{
+      width:95%;
     }
   }
   
