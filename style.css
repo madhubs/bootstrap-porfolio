@@ -1,5 +1,5 @@
 
-  h1{
+h1{
     text-align: center;
     background: #cac7cc;
 }
@@ -8,12 +8,6 @@ p{
  font-size: 20px;
 
 }
-html {
-    font-size: 1rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  
-
     .footer{
     overflow: auto;
     margin-top:30px;
@@ -26,7 +20,10 @@ html {
 
 /*contact*/
 
-  
+  html {
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
   @include media-breakpoint-up(sm) {
     html {
       font-size: 1.2rem;
