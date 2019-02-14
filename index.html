@@ -3,7 +3,7 @@
 <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
      <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> <!--bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!--bootstrap-->
@@ -13,19 +13,26 @@
     <title>About Me</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="row col-lg-12 col-md-12 col-sml-12 col-sm-12">
+   <div class="container-fluid">
+        <div class="jumbotron text-center"> 
                 <h1>Yin Lee</h1>
-            </div>
-            <div class="col-lg-12 " style="background:gray">
-                <nav class="navbar navbar-expand-lg navbar-light ">
-                    <a class="navbar-brand" href="#"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                  
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+        </div>
+
+            <div class="col " style="background:gray">
+                <nav class="navbar navbar-expand-md navbar-light ">
+                    
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <!-- <div class="collapse navbar-collapse" id="navbarNav"> -->
+                        <!-- <ul class="navbar-nav"> -->
+                          <!-- <li class="nav-item active"> -->
+
+
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
                       <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
                           <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
@@ -39,12 +46,12 @@
                       </ul>
                     </div>
                   </nav>
-                </div>
+     
         </div>
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                    <div class="card " style="width: 16rem;">
-                        <img class="card-img-top rounded-circle" src="assets/pic.jpg" alt="Card image cap">
+              <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-3 offset-md-1 ">
+                   <div class="card"> 
+                        <img class="card-img-top img-fluid rounded-circle" src="assets/pic.jpg" alt="Card image cap">
                         <div class="card-body" > 
                           <h2 class="card-title text-dark">Yin Lee</h2>
                           <p class="card-text text-success">Aspiring Programmer!! Attending the coding bootcamp at 
@@ -52,28 +59,38 @@
                           <a href="#" class="btn btn-primary">Linkin Profile</a>
                         </div>
                     </div>
-             
                 </div>
-            <div class="col-lg-6 align-self-center">
-                <p>My name is Yin. I moved to the PNW after high school and have been here ever since.
-                It took me a while to get used to the weather but after I get used to the rain, everything is
-                fine and dandy. <em>LOVE</em> it here now.<hr/>
-                </p>
+                
+                
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 offset-md-1 align-self-center">
+                <div class="card">
+                    <div class="card-body">
+                     <p>My name is Yin. I moved to the PNW after high school and have been here ever since.
+                        It took me a while to get used to the weather but after I get used to the rain, everything is
+                        fine and dandy. <em>LOVE</em> it here now.<hr/>
+                      </p>
+                      <p>I graduated from Univeristy of Washington with 
+                          a BA in Psychology but have been in the dental field for 10 years. I love what I do now but 
+                          it's time to pivot my career in a differnt direction. When I am not working and pulling my hair 
+                          out from learning to code, I spend my time with my 18 months old boy who is my world.
+                      </p>
+                    </div>
+                  </div>
+                
 
-                <p>I graduated from Univeristy of Washington with 
-                a BA in Psychology but have been in the dental field for 10 years. I love what I do now but 
-                it's time to pivot my career in a differnt direction. When I am not working and pulling my hair 
-                out from learning to code, I spend my time with my 18 months old boy who is my world.</p>
+                
             </div>
         </div>
       
       
-         <div class="footer">
-            <footer class="col-12 text-center" style="background:gray;">copyright@</footer>
-        </div> 
+         <!-- <div class="footer"> -->
+            <footer class="col-lg-12 col-md-12 col-sml-12 col-xs-12 text-center" style="background:gray;">copyright@</footer>
+       
     
 
 </div><!--wrap-->
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body> 
 </html>
