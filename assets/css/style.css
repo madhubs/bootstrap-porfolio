@@ -60,6 +60,10 @@ section.content{
     float:right;
     margin-top: -100px;
 }
+a .btn.btn-primary {
+    margin:0 auto;
+    text-align: center;
+}
 .footer{
     height: 30px;
     margin-top: 600px;
@@ -71,7 +75,7 @@ section.content{
     border-top: 8px solid #4aaaa5;
 
 }/*css for porfolio*/
-section.content2{
+/* section.content2{
     width:30%;
     background: #ffffff;
     border: #dddddd;
@@ -81,7 +85,7 @@ section.content2{
     margin-left: 460px;
     margin-top:70px;
     padding:20px 20px;
-}
+} */
 .pic{
     float:left;
     overflow: auto;
@@ -97,13 +101,21 @@ div img {
     overflow: clear;
 
 }
+
 a.caption{
-    position: absolute;
-    background: orange;
+    /* position: absolute; */
     margin-top:50px;
     margin-left:-119px;
-    width:50%;
+    /* width:50%; */
+    display: inline;
    
+}
+
+a.code {
+  position: relative;
+  float:right;
+  align-self: end;
+  margin-left:100px;
 }
 
 /*css for contact*/
