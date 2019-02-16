@@ -14,6 +14,7 @@ header{
     background: #ffffff;
     border:#cccccc;
 }
+
 h1{
     margin-left: 400px;
     display: inline;
@@ -110,14 +111,23 @@ a.caption{
     display: inline;
    
 }
-
-a.code {
-  position: relative;
-  float:right;
-  align-self: end;
-  margin-left:100px;
+.extra {
+    position: absolute;
+    margin-left:500px;
+    border:2px red dotted;
+    text-align: center;
 }
-
+.btn {
+    display: inline-block;
+    width:150px;
+    height: 100px;
+    background: orange;
+    margin-left:300px;
+    border:1px green dotted;
+}
+i.fab {
+    margin:0 auto;
+}
 /*css for contact*/
 section.content1{
     width:40%;
