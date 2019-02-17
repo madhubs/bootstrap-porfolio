@@ -32,13 +32,12 @@ nav li {
 nav li a:hover{
     color:red;
 }
-section.main{
-    background-image: url("img/light-grey-terrazzo.png");
-    width: 100%;
-    height: 75%;
-    z-index: 1;
-    position: absolute;
+img.card-img-top {
+    width:300px;
+    height:250px;
+
 }
+
 section.content{
     width:960px;
     background: #ffffff;
@@ -52,15 +51,15 @@ section.content{
 .content>p {
     padding:10px;
     margin:3px;
-   margin-top:5%;
+    margin-top:5%;
     position: relative;
     float:right;
     overflow: auto;
 }
-.content>article{
+/* .content>article{
     float:right;
     margin-top: -100px;
-}
+} */
 a .btn.btn-primary {
     margin:0 auto;
     text-align: center;
@@ -125,11 +124,13 @@ a.caption{
     margin-left:300px;
     border:1px green dotted;
 }
-i.fab {
-    margin:0 auto;
+.extra a:hover,
+i.fab.fa-github,
+i.fas {
+ color:green;
 }
 /*css for contact*/
-section.content1{
+/* section.content1{
     width:40%;
     background: #ffffff;
     border: #dddddd;
@@ -138,7 +139,7 @@ section.content1{
     margin-left: 400px;
     margin-top:70px;
     padding:20px 20px;
-}
+} */
 h2, form>p, form>input, form>textarea {
     margin-left:10px;
     margin-top:3px;
